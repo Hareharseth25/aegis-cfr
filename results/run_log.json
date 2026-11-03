@@ -1,0 +1,65 @@
+{
+ "environment": {
+  "python": "3.13.6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "cpu": "Apple M3",
+  "cores": 8,
+  "time": "2026-11-02 12:17:30",
+  "vectorized_build": true
+ },
+ "runs": {
+  "exp01_kuhn_equilibrium": {
+   "ok": true,
+   "seconds": 5.243520290998276
+  },
+  "exp02_leduc_comparison": {
+   "ok": true,
+   "seconds": 421.06674645800376
+  },
+  "exp03_cfrplus_vs_dcfr": {
+   "ok": true,
+   "seconds": 27.38710158399772
+  },
+  "exp04_river_exact": {
+   "ok": true,
+   "seconds": 1.603755457996158
+  },
+  "exp05_action_abstraction": {
+   "ok": true,
+   "seconds": 3.2360103339888155
+  },
+  "exp06_adaptive_sampling": {
+   "ok": true,
+   "seconds": 335.84134520799853
+  },
+  "exp07_safe_resolving": {
+   "ok": true,
+   "seconds": 52.716596083017066
+  },
+  "exp08_value_network": {
+   "ok": true,
+   "seconds": 676.5868194169889
+  },
+  "exp09_performance": {
+   "ok": true,
+   "seconds": 32.81177645799471
+  },
+  "exp10_refinement": {
+   "ok": true,
+   "seconds": 11.950764666980831
+  },
+  "exp11_learned_allocation": {
+   "ok": true,
+   "seconds": 16.306758874998195
+  },
+  "exp12_budget_allocation": {
+   "ok": true,
+   "seconds": 5.864214250002988
+  },
+  "exp13_winrate_vs_exploitability": {
+   "ok": true,
+   "seconds": 1.7184154579881579
+  }
+ }
+}

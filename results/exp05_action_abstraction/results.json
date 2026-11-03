@@ -1,0 +1,740 @@
+{
+ "grid": [
+  0.25,
+  0.33,
+  0.5,
+  0.66,
+  0.75,
+  1.0,
+  1.25,
+  1.5,
+  2.0
+ ],
+ "spots": [
+  {
+   "board": "AsKh8c4d2s",
+   "abstractions": [
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.75
+     ],
+     "infosets": 1320,
+     "nodes": 21,
+     "ref_exploitability_pct": 6.085585517609215,
+     "abs_exploitability_pct": 0.005691859173090563,
+     "solve_seconds": 0.029423708
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.33,
+      1.0
+     ],
+     "infosets": 2640,
+     "nodes": 45,
+     "ref_exploitability_pct": 1.3649841368544688,
+     "abs_exploitability_pct": 0.012898371249431051,
+     "solve_seconds": 0.065609416
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.33,
+      0.75,
+      1.5
+     ],
+     "infosets": 3300,
+     "nodes": 57,
+     "ref_exploitability_pct": 1.1183757024713703,
+     "abs_exploitability_pct": 0.010828926549105944,
+     "solve_seconds": 0.08349225
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+     ],
+     "infosets": 3300,
+     "nodes": 57,
+     "ref_exploitability_pct": 0.4229588822348873,
+     "abs_exploitability_pct": 0.009554407632700546,
+     "solve_seconds": 0.082900834
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.75,
+      1.0,
+      1.5
+     ],
+     "infosets": 5940,
+     "nodes": 105,
+     "ref_exploitability_pct": 0.09126003592151832,
+     "abs_exploitability_pct": 0.03933251222617784,
+     "solve_seconds": 0.1607795
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+     ],
+     "infosets": 6600,
+     "nodes": 117,
+     "ref_exploitability_pct": 0.0774432315140885,
+     "abs_exploitability_pct": 0.04349291695106139,
+     "solve_seconds": 0.173135375
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0
+     ],
+     "infosets": 7260,
+     "nodes": 129,
+     "ref_exploitability_pct": 0.039443544623877,
+     "abs_exploitability_pct": 0.039443544623877,
+     "solve_seconds": 0.188656625
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.75
+     ],
+     "infosets": 1320,
+     "nodes": 21,
+     "ref_exploitability_pct": 9.64492436249127,
+     "abs_exploitability_pct": 0.005691859173090563,
+     "solve_seconds": 0.02919525
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.33,
+      1.0
+     ],
+     "infosets": 2640,
+     "nodes": 45,
+     "ref_exploitability_pct": 6.683709333503029,
+     "abs_exploitability_pct": 0.012898371249431051,
+     "solve_seconds": 0.065301042
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.33,
+      0.75,
+      1.5
+     ],
+     "infosets": 3300,
+     "nodes": 57,
+     "ref_exploitability_pct": 3.9999804136451367,
+     "abs_exploitability_pct": 0.010828926549105944,
+     "solve_seconds": 0.083090541
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+     ],
+     "infosets": 3300,
+     "nodes": 57,
+     "ref_exploitability_pct": 3.714509561390873,
+     "abs_exploitability_pct": 0.009554407632700546,
+     "solve_seconds": 0.082495833
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.75,
+      1.0,
+      1.5
+     ],
+     "infosets": 5940,
+     "nodes": 105,
+     "ref_exploitability_pct": 2.3853128894622753,
+     "abs_exploitability_pct": 0.03933251222617784,
+     "solve_seconds": 0.153461375
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+     ],
+     "infosets": 6600,
+     "nodes": 117,
+     "ref_exploitability_pct": 1.6859173096549664,
+     "abs_exploitability_pct": 0.04349291695106139,
+     "solve_seconds": 0.170860083
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0
+     ],
+     "infosets": 7260,
+     "nodes": 129,
+     "ref_exploitability_pct": 0.039443544623877,
+     "abs_exploitability_pct": 0.039443544623877,
+     "solve_seconds": 0.188423834
+    }
+   ]
+  },
+  {
+   "board": "Jh9h6c3d2s",
+   "abstractions": [
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.75
+     ],
+     "infosets": 560,
+     "nodes": 21,
+     "ref_exploitability_pct": 5.19325749052793,
+     "abs_exploitability_pct": 0.0012687116799838805,
+     "solve_seconds": 0.011223458
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.33,
+      1.0
+     ],
+     "infosets": 1120,
+     "nodes": 45,
+     "ref_exploitability_pct": 0.8428163692573492,
+     "abs_exploitability_pct": 0.0041707416718352874,
+     "solve_seconds": 0.025383917
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.33,
+      0.75,
+      1.5
+     ],
+     "infosets": 1400,
+     "nodes": 57,
+     "ref_exploitability_pct": 0.7831456977847395,
+     "abs_exploitability_pct": 0.003010712010457439,
+     "solve_seconds": 0.032542792
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+     ],
+     "infosets": 1400,
+     "nodes": 57,
+     "ref_exploitability_pct": 0.12632062717650072,
+     "abs_exploitability_pct": 0.00792856568595468,
+     "solve_seconds": 0.032458
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.75,
+      1.0,
+      1.5
+     ],
+     "infosets": 2520,
+     "nodes": 105,
+     "ref_exploitability_pct": 0.02577739859212258,
+     "abs_exploitability_pct": 0.01770776163426291,
+     "solve_seconds": 0.060577083
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+     ],
+     "infosets": 2800,
+     "nodes": 117,
+     "ref_exploitability_pct": 0.02863920748409754,
+     "abs_exploitability_pct": 0.02230855214045846,
+     "solve_seconds": 0.067587291
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0
+     ],
+     "infosets": 3080,
+     "nodes": 129,
+     "ref_exploitability_pct": 0.02120028657227735,
+     "abs_exploitability_pct": 0.02120028657227735,
+     "solve_seconds": 0.07469625
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.75
+     ],
+     "infosets": 560,
+     "nodes": 21,
+     "ref_exploitability_pct": 6.9522620134249635,
+     "abs_exploitability_pct": 0.0012687116799838805,
+     "solve_seconds": 0.011113583
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.33,
+      1.0
+     ],
+     "infosets": 1120,
+     "nodes": 45,
+     "ref_exploitability_pct": 3.626809480581279,
+     "abs_exploitability_pct": 0.0041707416718352874,
+     "solve_seconds": 0.025317125
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.33,
+      0.75,
+      1.5
+     ],
+     "infosets": 1400,
+     "nodes": 57,
+     "ref_exploitability_pct": 1.9832607875828359,
+     "abs_exploitability_pct": 0.003010712010457439,
+     "solve_seconds": 0.032573208
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+     ],
+     "infosets": 1400,
+     "nodes": 57,
+     "ref_exploitability_pct": 1.9578785442435593,
+     "abs_exploitability_pct": 0.00792856568595468,
+     "solve_seconds": 0.032675584
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.75,
+      1.0,
+      1.5
+     ],
+     "infosets": 2520,
+     "nodes": 105,
+     "ref_exploitability_pct": 0.9503623890362896,
+     "abs_exploitability_pct": 0.01770776163426291,
+     "solve_seconds": 0.061048959
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+     ],
+     "infosets": 2800,
+     "nodes": 117,
+     "ref_exploitability_pct": 0.5023420146205417,
+     "abs_exploitability_pct": 0.02230855214045846,
+     "solve_seconds": 0.067746541
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0
+     ],
+     "infosets": 3080,
+     "nodes": 129,
+     "ref_exploitability_pct": 0.02120028657227735,
+     "abs_exploitability_pct": 0.02120028657227735,
+     "solve_seconds": 0.074574042
+    }
+   ]
+  },
+  {
+   "board": "QsQd7c4h2d",
+   "abstractions": [
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.75
+     ],
+     "infosets": 720,
+     "nodes": 21,
+     "ref_exploitability_pct": 1.858441401753456,
+     "abs_exploitability_pct": 0.0010616425397707019,
+     "solve_seconds": 0.015396667
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.33,
+      1.0
+     ],
+     "infosets": 1440,
+     "nodes": 45,
+     "ref_exploitability_pct": 0.20696131907317294,
+     "abs_exploitability_pct": 0.0020926854750342727,
+     "solve_seconds": 0.034812042
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.33,
+      0.75,
+      1.5
+     ],
+     "infosets": 1800,
+     "nodes": 57,
+     "ref_exploitability_pct": 0.20443446892998907,
+     "abs_exploitability_pct": 0.0032528848698021307,
+     "solve_seconds": 0.044388458
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+     ],
+     "infosets": 1800,
+     "nodes": 57,
+     "ref_exploitability_pct": 0.059145642770779716,
+     "abs_exploitability_pct": 0.0027710292682385784,
+     "solve_seconds": 0.04453425
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.75,
+      1.0,
+      1.5
+     ],
+     "infosets": 3240,
+     "nodes": 105,
+     "ref_exploitability_pct": 0.009863931988508767,
+     "abs_exploitability_pct": 0.009269405672284847,
+     "solve_seconds": 0.082566667
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+     ],
+     "infosets": 3600,
+     "nodes": 117,
+     "ref_exploitability_pct": 0.03942167865445967,
+     "abs_exploitability_pct": 0.03942167865445967,
+     "solve_seconds": 0.091959625
+    },
+    {
+     "method": "PSEUDO_HARMONIC",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0
+     ],
+     "infosets": 3960,
+     "nodes": 129,
+     "ref_exploitability_pct": 0.020629066098891258,
+     "abs_exploitability_pct": 0.020629066098891258,
+     "solve_seconds": 0.101895166
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.75
+     ],
+     "infosets": 720,
+     "nodes": 21,
+     "ref_exploitability_pct": 2.376847085364883,
+     "abs_exploitability_pct": 0.0010616425397707019,
+     "solve_seconds": 0.015408958
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.33,
+      1.0
+     ],
+     "infosets": 1440,
+     "nodes": 45,
+     "ref_exploitability_pct": 0.9925415982267403,
+     "abs_exploitability_pct": 0.0020926854750342727,
+     "solve_seconds": 0.034725875
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.33,
+      0.75,
+      1.5
+     ],
+     "infosets": 1800,
+     "nodes": 57,
+     "ref_exploitability_pct": 0.819396149111359,
+     "abs_exploitability_pct": 0.0032528848698021307,
+     "solve_seconds": 0.044447125
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+     ],
+     "infosets": 1800,
+     "nodes": 57,
+     "ref_exploitability_pct": 0.515039093067319,
+     "abs_exploitability_pct": 0.0027710292682385784,
+     "solve_seconds": 0.044481583
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.75,
+      1.0,
+      1.5
+     ],
+     "infosets": 3240,
+     "nodes": 105,
+     "ref_exploitability_pct": 0.3655722067632716,
+     "abs_exploitability_pct": 0.009269405672284847,
+     "solve_seconds": 0.082611375
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+     ],
+     "infosets": 3600,
+     "nodes": 117,
+     "ref_exploitability_pct": 0.30815567244193076,
+     "abs_exploitability_pct": 0.03942167865445967,
+     "solve_seconds": 0.091986584
+    },
+    {
+     "method": "NEAREST",
+     "sizes": [
+      0.25,
+      0.33,
+      0.5,
+      0.66,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0
+     ],
+     "infosets": 3960,
+     "nodes": 129,
+     "ref_exploitability_pct": 0.020629066098891258,
+     "abs_exploitability_pct": 0.020629066098891258,
+     "solve_seconds": 0.101608292
+    }
+   ]
+  }
+ ],
+ "aggregate": {
+  "pseudo-harmonic": [
+   [
+    866.6666666666666,
+    4.379094803296867
+   ],
+   [
+    1733.3333333333333,
+    0.804920608394997
+   ],
+   [
+    2166.6666666666665,
+    0.7019852897286997
+   ],
+   [
+    2166.6666666666665,
+    0.20280838406072257
+   ],
+   [
+    3900.0,
+    0.04230045550071656
+   ],
+   [
+    4333.333333333333,
+    0.048501372550881904
+   ],
+   [
+    4766.666666666667,
+    0.027090965765015202
+   ]
+  ],
+  "nearest": [
+   [
+    866.6666666666666,
+    6.324677820427039
+   ],
+   [
+    1733.3333333333333,
+    3.7676868041036826
+   ],
+   [
+    2166.6666666666665,
+    2.267545783446444
+   ],
+   [
+    2166.6666666666665,
+    2.062475732900584
+   ],
+   [
+    3900.0,
+    1.2337491617539456
+   ],
+   [
+    4333.333333333333,
+    0.8321383322391463
+   ],
+   [
+    4766.666666666667,
+    0.027090965765015202
+   ]
+  ],
+  "abstract": [
+   [
+    866.6666666666666,
+    0.002674071130948382
+   ],
+   [
+    1733.3333333333333,
+    0.006387266132100204
+   ],
+   [
+    2166.6666666666665,
+    0.005697507809788505
+   ],
+   [
+    2166.6666666666665,
+    0.0067513341956312685
+   ],
+   [
+    3900.0,
+    0.02210322651090853
+   ],
+   [
+    4333.333333333333,
+    0.03507438258199317
+   ],
+   [
+    4766.666666666667,
+    0.027090965765015202
+   ]
+  ]
+ }
+}

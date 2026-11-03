@@ -1,0 +1,17 @@
+# Build outputs
+build/
+build-novec/
+python/aegis/*.so
+__pycache__/
+*.pyc
+.pytest_cache/
+# Environments
+.venv/
+frontend/node_modules/
+frontend/dist/
+# Large regenerable artefacts (re-created by python/experiments/exp08_value_network.py)
+results/exp08_value_network/*.npz
+results/exp08_value_network/*.bin
+results/*.log
+docs/papers/*.pdf
+.DS_Store

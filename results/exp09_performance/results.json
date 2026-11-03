@@ -1,0 +1,666 @@
+{
+ "bench": [
+  {
+   "bench": "meta",
+   "hw_counters": false,
+   "backend": "none",
+   "reason": "kperf requires root on macOS (run the benchmark with sudo); counters disabled",
+   "threads": 8,
+   "vectorized": true
+  },
+  {
+   "bench": "evaluator_7card",
+   "config": "random hands",
+   "wall_s": 0.658447,
+   "cpu_s": 0.657095,
+   "max_rss_kb": 6320,
+   "evals_per_sec": 30374500.0,
+   "ns_per_eval": 32.9223,
+   "checksum": 756986
+  },
+  {
+   "bench": "tabular_cfr",
+   "config": "leduc flat arrays",
+   "wall_s": 0.065856,
+   "cpu_s": 0.065585,
+   "max_rss_kb": 9120,
+   "iterations_per_sec": 7592.38,
+   "nodes_per_sec": 117736000.0
+  },
+  {
+   "bench": "tabular_cfr",
+   "config": "leduc object-per-node",
+   "wall_s": 1.779806,
+   "cpu_s": 1.774498,
+   "max_rss_kb": 9456,
+   "iterations_per_sec": 280.93,
+   "nodes_per_sec": 4356430.0
+  },
+  {
+   "bench": "tabular_scaling",
+   "config": "leduc ranks=3",
+   "wall_s": 0.002866,
+   "cpu_s": 0.002864,
+   "max_rss_kb": 10480,
+   "nodes": 9457,
+   "infosets": 936,
+   "build_s": 0.00420333,
+   "nodes_per_sec": 121266000.0
+  },
+  {
+   "bench": "tabular_scaling",
+   "config": "leduc ranks=6",
+   "wall_s": 0.027377,
+   "cpu_s": 0.027327,
+   "max_rss_kb": 20672,
+   "nodes": 100993,
+   "infosets": 4032,
+   "build_s": 0.0403485,
+   "nodes_per_sec": 131307000.0
+  },
+  {
+   "bench": "tabular_scaling",
+   "config": "leduc ranks=9",
+   "wall_s": 0.100134,
+   "cpu_s": 0.099207,
+   "max_rss_kb": 52960,
+   "nodes": 371809,
+   "infosets": 9288,
+   "build_s": 0.148919,
+   "nodes_per_sec": 133152000.0
+  },
+  {
+   "bench": "mccfr",
+   "config": "external serial",
+   "wall_s": 0.09552,
+   "cpu_s": 0.095113,
+   "max_rss_kb": 53008,
+   "traversals_per_sec": 2093810.0,
+   "nodes_per_sec": 47374500.0
+  },
+  {
+   "bench": "mccfr",
+   "config": "external parallel threads=1",
+   "wall_s": 0.105464,
+   "cpu_s": 0.1054,
+   "max_rss_kb": 53104,
+   "threads": 1,
+   "traversals_per_sec": 1898280.0,
+   "nodes_per_sec": 42473900.0
+  },
+  {
+   "bench": "mccfr",
+   "config": "external parallel threads=2",
+   "wall_s": 0.064362,
+   "cpu_s": 0.102723,
+   "max_rss_kb": 53216,
+   "threads": 2,
+   "traversals_per_sec": 3113660.0,
+   "nodes_per_sec": 69601500.0
+  },
+  {
+   "bench": "mccfr",
+   "config": "external parallel threads=4",
+   "wall_s": 0.036702,
+   "cpu_s": 0.102461,
+   "max_rss_kb": 53360,
+   "threads": 4,
+   "traversals_per_sec": 5471040.0,
+   "nodes_per_sec": 120923000.0
+  },
+  {
+   "bench": "mccfr",
+   "config": "external parallel threads=8",
+   "wall_s": 0.031922,
+   "cpu_s": 0.10088,
+   "max_rss_kb": 53648,
+   "threads": 8,
+   "traversals_per_sec": 6315400.0,
+   "nodes_per_sec": 141458000.0
+  },
+  {
+   "bench": "river_cfr",
+   "config": "dcfr full 1081x1081",
+   "wall_s": 0.281474,
+   "cpu_s": 0.281025,
+   "max_rss_kb": 55072,
+   "hands0": 1081,
+   "hands1": 1081,
+   "nodes": 33,
+   "ms_per_iteration": 0.562947,
+   "hand_node_updates_per_sec": 253473000.0,
+   "exploitability_pct_pot": 0.00894539,
+   "br_eval_ms": 1.17421,
+   "solver_memory_mb": 1.68636
+  },
+  {
+   "bench": "river_cfr",
+   "config": "dcfr medium",
+   "wall_s": 0.084817,
+   "cpu_s": 0.084641,
+   "max_rss_kb": 56768,
+   "hands0": 309,
+   "hands1": 370,
+   "nodes": 33,
+   "ms_per_iteration": 0.169633,
+   "hand_node_updates_per_sec": 264182000.0,
+   "exploitability_pct_pot": 0.0068098,
+   "br_eval_ms": 0.359459,
+   "solver_memory_mb": 0.603144
+  },
+  {
+   "bench": "river_cfr",
+   "config": "dcfr narrow",
+   "wall_s": 0.008051,
+   "cpu_s": 0.008044,
+   "max_rss_kb": 57264,
+   "hands0": 24,
+   "hands1": 51,
+   "nodes": 33,
+   "ms_per_iteration": 0.0161019,
+   "hand_node_updates_per_sec": 307417000.0,
+   "exploitability_pct_pot": 5.33304e-06,
+   "br_eval_ms": 0.047708,
+   "solver_memory_mb": 0.062064
+  },
+  {
+   "bench": "turn_cfr_threads",
+   "config": "full ranges threads=1",
+   "wall_s": 0.684652,
+   "cpu_s": 0.651498,
+   "max_rss_kb": 236688,
+   "threads": 1,
+   "nodes": 3057,
+   "ms_per_iteration": 68.4652,
+   "hand_node_updates_per_sec": 201463000.0,
+   "solver_memory_mb": 151.197
+  },
+  {
+   "bench": "turn_cfr_threads",
+   "config": "full ranges threads=2",
+   "wall_s": 0.359284,
+   "cpu_s": 0.694467,
+   "max_rss_kb": 236688,
+   "threads": 2,
+   "nodes": 3057,
+   "ms_per_iteration": 35.9284,
+   "hand_node_updates_per_sec": 383907000.0,
+   "solver_memory_mb": 151.197
+  },
+  {
+   "bench": "turn_cfr_threads",
+   "config": "full ranges threads=4",
+   "wall_s": 0.203835,
+   "cpu_s": 0.758297,
+   "max_rss_kb": 236688,
+   "threads": 4,
+   "nodes": 3057,
+   "ms_per_iteration": 20.3835,
+   "hand_node_updates_per_sec": 676684000.0,
+   "solver_memory_mb": 151.197
+  },
+  {
+   "bench": "turn_cfr_threads",
+   "config": "full ranges threads=8",
+   "wall_s": 0.142088,
+   "cpu_s": 0.887423,
+   "max_rss_kb": 236688,
+   "threads": 8,
+   "nodes": 3057,
+   "ms_per_iteration": 14.2088,
+   "hand_node_updates_per_sec": 970749000.0,
+   "solver_memory_mb": 151.197
+  },
+  {
+   "bench": "value_net_cpu",
+   "config": "mlp 2x512 batch=1",
+   "wall_s": 5.020804,
+   "cpu_s": 4.88795,
+   "max_rss_kb": 260576,
+   "batch": 1,
+   "rows_per_sec": 3983.43,
+   "ms_per_batch": 0.25104,
+   "parameters": 4366940.0
+  },
+  {
+   "bench": "value_net_cpu",
+   "config": "mlp 2x512 batch=16",
+   "wall_s": 1.312586,
+   "cpu_s": 1.30015,
+   "max_rss_kb": 260576,
+   "batch": 16,
+   "rows_per_sec": 15237.1,
+   "ms_per_batch": 1.05007,
+   "parameters": 4366940.0
+  },
+  {
+   "bench": "value_net_cpu",
+   "config": "mlp 2x512 batch=64",
+   "wall_s": 0.392427,
+   "cpu_s": 0.39171,
+   "max_rss_kb": 260576,
+   "batch": 64,
+   "rows_per_sec": 50883.4,
+   "ms_per_batch": 1.25778,
+   "parameters": 4366940.0
+  },
+  {
+   "bench": "value_net_cpu",
+   "config": "mlp 2x512 batch=256",
+   "wall_s": 0.320623,
+   "cpu_s": 0.318033,
+   "max_rss_kb": 260576,
+   "batch": 256,
+   "rows_per_sec": 62278.7,
+   "ms_per_batch": 4.11056,
+   "parameters": 4366940.0
+  },
+  {
+   "bench": "value_net_cpu",
+   "config": "mlp 2x512 batch=1024",
+   "wall_s": 0.274493,
+   "cpu_s": 0.26936,
+   "max_rss_kb": 311840,
+   "batch": 1024,
+   "rows_per_sec": 70879.8,
+   "ms_per_batch": 14.447,
+   "parameters": 4366940.0
+  }
+ ],
+ "bench_novec": [
+  {
+   "bench": "meta",
+   "hw_counters": false,
+   "backend": "none",
+   "reason": "kperf requires root on macOS (run the benchmark with sudo); counters disabled",
+   "threads": 8,
+   "vectorized": false
+  },
+  {
+   "bench": "river_cfr",
+   "config": "dcfr full 1081x1081",
+   "wall_s": 0.304827,
+   "cpu_s": 0.304182,
+   "max_rss_kb": 8368,
+   "hands0": 1081,
+   "hands1": 1081,
+   "nodes": 33,
+   "ms_per_iteration": 0.609653,
+   "hand_node_updates_per_sec": 234054000.0,
+   "exploitability_pct_pot": 0.00894539,
+   "br_eval_ms": 1.2425,
+   "solver_memory_mb": 1.68636
+  },
+  {
+   "bench": "river_cfr",
+   "config": "dcfr medium",
+   "wall_s": 0.093677,
+   "cpu_s": 0.093446,
+   "max_rss_kb": 10304,
+   "hands0": 309,
+   "hands1": 370,
+   "nodes": 33,
+   "ms_per_iteration": 0.187355,
+   "hand_node_updates_per_sec": 239193000.0,
+   "exploitability_pct_pot": 0.0068098,
+   "br_eval_ms": 0.386542,
+   "solver_memory_mb": 0.603144
+  },
+  {
+   "bench": "river_cfr",
+   "config": "dcfr narrow",
+   "wall_s": 0.008992,
+   "cpu_s": 0.008911,
+   "max_rss_kb": 10720,
+   "hands0": 24,
+   "hands1": 51,
+   "nodes": 33,
+   "ms_per_iteration": 0.0179838,
+   "hand_node_updates_per_sec": 275247000.0,
+   "exploitability_pct_pot": 5.33304e-06,
+   "br_eval_ms": 0.052958,
+   "solver_memory_mb": 0.062064
+  },
+  {
+   "bench": "meta",
+   "hw_counters": false,
+   "backend": "none",
+   "reason": "kperf requires root on macOS (run the benchmark with sudo); counters disabled",
+   "threads": 8,
+   "vectorized": false
+  },
+  {
+   "bench": "turn_cfr_threads",
+   "config": "full ranges threads=1",
+   "wall_s": 0.707017,
+   "cpu_s": 0.689211,
+   "max_rss_kb": 199920,
+   "threads": 1,
+   "nodes": 3057,
+   "ms_per_iteration": 70.7017,
+   "hand_node_updates_per_sec": 195090000.0,
+   "solver_memory_mb": 151.197
+  },
+  {
+   "bench": "turn_cfr_threads",
+   "config": "full ranges threads=2",
+   "wall_s": 0.38351,
+   "cpu_s": 0.73392,
+   "max_rss_kb": 200096,
+   "threads": 2,
+   "nodes": 3057,
+   "ms_per_iteration": 38.351,
+   "hand_node_updates_per_sec": 359657000.0,
+   "solver_memory_mb": 151.197
+  },
+  {
+   "bench": "turn_cfr_threads",
+   "config": "full ranges threads=4",
+   "wall_s": 0.21095,
+   "cpu_s": 0.781253,
+   "max_rss_kb": 200144,
+   "threads": 4,
+   "nodes": 3057,
+   "ms_per_iteration": 21.095,
+   "hand_node_updates_per_sec": 653859000.0,
+   "solver_memory_mb": 151.197
+  },
+  {
+   "bench": "turn_cfr_threads",
+   "config": "full ranges threads=8",
+   "wall_s": 0.152331,
+   "cpu_s": 0.901543,
+   "max_rss_kb": 200320,
+   "threads": 8,
+   "nodes": 3057,
+   "ms_per_iteration": 15.2331,
+   "hand_node_updates_per_sec": 905474000.0,
+   "solver_memory_mb": 151.197
+  }
+ ],
+ "simd_ablation": {
+  "river_cfr dcfr full 1081x1081": {
+   "vectorized_ms": 0.562947,
+   "scalar_ms": 0.609653,
+   "speedup": 1.08296695781308
+  },
+  "river_cfr dcfr medium": {
+   "vectorized_ms": 0.169633,
+   "scalar_ms": 0.187355,
+   "speedup": 1.1044725967235147
+  },
+  "river_cfr dcfr narrow": {
+   "vectorized_ms": 0.0161019,
+   "scalar_ms": 0.0179838,
+   "speedup": 1.1168744061259852
+  },
+  "turn_cfr_threads full ranges threads=1": {
+   "vectorized_ms": 68.4652,
+   "scalar_ms": 70.7017,
+   "speedup": 1.0326662304353162
+  },
+  "turn_cfr_threads full ranges threads=2": {
+   "vectorized_ms": 35.9284,
+   "scalar_ms": 38.351,
+   "speedup": 1.0674285523429932
+  },
+  "turn_cfr_threads full ranges threads=4": {
+   "vectorized_ms": 20.3835,
+   "scalar_ms": 21.095,
+   "speedup": 1.034905683518532
+  },
+  "turn_cfr_threads full ranges threads=8": {
+   "vectorized_ms": 14.2088,
+   "scalar_ms": 15.2331,
+   "speedup": 1.072089127864422
+  }
+ },
+ "gpu_vs_cpu": [
+  {
+   "ranges": "full",
+   "backend": "C++",
+   "dtype": "float64",
+   "ms_per_iter": 0.5708513834785359,
+   "expl": 0.2473258250524779,
+   "hands": [
+    1081,
+    1081
+   ]
+  },
+  {
+   "ranges": "full",
+   "backend": "torch-cpu",
+   "dtype": "float64",
+   "ms_per_iter": 3.8067529298642877,
+   "expl": 0.24732582505251455,
+   "hands": [
+    1081,
+    1081
+   ]
+  },
+  {
+   "ranges": "full",
+   "backend": "torch-cpu",
+   "dtype": "float32",
+   "ms_per_iter": 2.241542403537192,
+   "expl": 0.24732758822486556,
+   "hands": [
+    1081,
+    1081
+   ]
+  },
+  {
+   "ranges": "full",
+   "backend": "torch-mps",
+   "dtype": "float32",
+   "ms_per_iter": 5.6068939999309615,
+   "expl": 0.24732890357610304,
+   "hands": [
+    1081,
+    1081
+   ]
+  },
+  {
+   "ranges": "medium",
+   "backend": "C++",
+   "dtype": "float64",
+   "ms_per_iter": 0.17019305038653937,
+   "expl": 0.24836892083796502,
+   "hands": [
+    309,
+    370
+   ]
+  },
+  {
+   "ranges": "medium",
+   "backend": "torch-cpu",
+   "dtype": "float64",
+   "ms_per_iter": 1.2868632978081638,
+   "expl": 0.24836892083794104,
+   "hands": [
+    309,
+    370
+   ]
+  },
+  {
+   "ranges": "medium",
+   "backend": "torch-cpu",
+   "dtype": "float32",
+   "ms_per_iter": 1.2357741228729617,
+   "expl": 0.24836944531374416,
+   "hands": [
+    309,
+    370
+   ]
+  },
+  {
+   "ranges": "medium",
+   "backend": "torch-mps",
+   "dtype": "float32",
+   "ms_per_iter": 4.725875736831018,
+   "expl": 0.24836892792860998,
+   "hands": [
+    309,
+    370
+   ]
+  },
+  {
+   "ranges": "narrow",
+   "backend": "C++",
+   "dtype": "float64",
+   "ms_per_iter": 0.016025700218354665,
+   "expl": 0.003019606655275453,
+   "hands": [
+    24,
+    51
+   ]
+  },
+  {
+   "ranges": "narrow",
+   "backend": "torch-cpu",
+   "dtype": "float64",
+   "ms_per_iter": 1.028921052797191,
+   "expl": 0.0030196066552825584,
+   "hands": [
+    24,
+    51
+   ]
+  },
+  {
+   "ranges": "narrow",
+   "backend": "torch-cpu",
+   "dtype": "float32",
+   "ms_per_iter": 1.0736293859959565,
+   "expl": 0.003019606725235491,
+   "hands": [
+    24,
+    51
+   ]
+  },
+  {
+   "ranges": "narrow",
+   "backend": "torch-mps",
+   "dtype": "float32",
+   "ms_per_iter": 4.585345017850367,
+   "expl": 0.003019606692287624,
+   "hands": [
+    24,
+    51
+   ]
+  }
+ ],
+ "value_net": [
+  {
+   "backend": "C++",
+   "batch": 1,
+   "ms": 0.3063059999985853
+  },
+  {
+   "backend": "torch-cpu",
+   "batch": 1,
+   "ms": 0.26339214549807366
+  },
+  {
+   "backend": "torch-mps",
+   "batch": 1,
+   "ms": 0.7181787500012433
+  },
+  {
+   "backend": "C++",
+   "batch": 16,
+   "ms": 1.087790328077972
+  },
+  {
+   "backend": "torch-cpu",
+   "batch": 16,
+   "ms": 0.9922189998906106
+  },
+  {
+   "backend": "torch-mps",
+   "batch": 16,
+   "ms": 0.7363320000004023
+  },
+  {
+   "backend": "C++",
+   "batch": 64,
+   "ms": 1.3094798383873798
+  },
+  {
+   "backend": "torch-cpu",
+   "batch": 64,
+   "ms": 1.4556720327105253
+  },
+  {
+   "backend": "torch-mps",
+   "batch": 64,
+   "ms": 1.119440870224348
+  },
+  {
+   "backend": "C++",
+   "batch": 240,
+   "ms": 4.383130126370816
+  },
+  {
+   "backend": "torch-cpu",
+   "batch": 240,
+   "ms": 3.960635374824051
+  },
+  {
+   "backend": "torch-mps",
+   "batch": 240,
+   "ms": 3.1969634983397555
+  },
+  {
+   "backend": "C++",
+   "batch": 1024,
+   "ms": 16.82373633957468
+  },
+  {
+   "backend": "torch-cpu",
+   "batch": 1024,
+   "ms": 13.98530566560415
+  },
+  {
+   "backend": "torch-mps",
+   "batch": 1024,
+   "ms": 8.013624998663241
+  }
+ ],
+ "latency_to_0.1pct_pot": {
+  "full": {
+   "iterations": 110,
+   "solver_seconds": 0.06331329501699656,
+   "hands": [
+    1081,
+    1081
+   ],
+   "memory_mb": 1.68636
+  },
+  "medium": {
+   "iterations": 110,
+   "solver_seconds": 0.018815707007888705,
+   "hands": [
+    309,
+    370
+   ],
+   "memory_mb": 0.603144
+  },
+  "narrow": {
+   "iterations": 20,
+   "solver_seconds": 0.00035525200655683875,
+   "hands": [
+    24,
+    51
+   ],
+   "memory_mb": 0.062064
+  }
+ },
+ "hardware_counters": {
+  "bench": "meta",
+  "hw_counters": false,
+  "backend": "none",
+  "reason": "kperf requires root on macOS (run the benchmark with sudo); counters disabled",
+  "threads": 8,
+  "vectorized": true
+ }
+}
